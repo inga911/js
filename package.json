@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "task3": "nodemon ./js-uzduotys/js-kintamuju-palyginimas",
+    "task2": "nodemon ./js-uzduotys/js-veiksmai-su-kintamaisiais",
+    "task": "nodemon ./js-uzduotys/js-kintamuju-inicijavimas",
     "if": "nodemon ./js/06-if",
     "array": "nodemon ./js/05-array",
     "boolean": "nodemon ./js/04-boolean",
