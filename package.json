@@ -1,0 +1,20 @@
+{
+  "name": "js-bandymas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "array": "nodemon ./js/05-array",
+    "boolean": "nodemon ./js/04-boolean",
+    "strings": "nodemon ./js/03-strings",
+    "numbers": "nodemon ./js/02-numbers",
+    "console": "nodemon ./js/01-console",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Inga (https://github.com/inga911)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
