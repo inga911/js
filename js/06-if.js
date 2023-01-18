@@ -108,6 +108,8 @@ if (7 === '7'){  // nelygus nes '7' skirtingas duomenu tipas, is pradziu tikrina
 console.log('-------------');
 
 
+
+
 const diena = 8;
 
 
@@ -131,6 +133,7 @@ else  if (diena ===7) {
 } else {
     console.log('nezinau tokios dienos');
 }
+
 
 
 // CODE NESTING - nestinimas

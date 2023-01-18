@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "typeof": "nodemon ./js/10-typeof",
+    "function": "nodemon ./js/09-function",
+    "for": "nodemon ./js/08-for",
+    "switch": "nodemon ./js/07-switch",
     "task3": "nodemon ./js-uzduotys/js-kintamuju-palyginimas",
     "task2": "nodemon ./js-uzduotys/js-veiksmai-su-kintamaisiais",
     "task": "nodemon ./js-uzduotys/js-kintamuju-inicijavimas",

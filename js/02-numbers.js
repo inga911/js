@@ -130,3 +130,54 @@ console.log(temperatura);
 
 temperatura %= 3;
 console.log(temperatura);
+
+
+console.log('Plius plius ------------------');
+
+let svoris = 20;
+console.log(svoris);
+
+svoris = svoris + 1;
+console.log(svoris);
+
+svoris += 1;
+console.log(svoris);
+
+svoris++;
+console.log(svoris);
+
+++svoris;
+console.log(svoris);
+
+console.log('Minus minus------------------');
+
+let ugis = 100;
+console.log(ugis);
+
+ugis = ugis - 1;
+console.log(ugis);
+
+ugis -= 1;
+console.log(ugis);
+
+ugis--;
+console.log(ugis);
+
+--ugis;
+console.log(ugis);
+
+console.log('Priekyje ------------------');
+
+let gg = 0;
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+console.log(++gg);
+
+let hh = 0;
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);
+console.log(hh++);
