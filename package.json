@@ -4,6 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "biggestNum": "nodemon ./js/15-biggestNum",
+    "numSize": "nodemon ./js/14-numSize",
+    "beLiekanos": "nodemon ./js/13-beLiekanos",
+    "reverseString": "nodemon ./js/12-reverseString",
+    "rangeSum": "nodemon ./js/11-rangeSum",
+    "task5": "nodemon ./js-uzduotys/task5-function",
+    "task4": "nodemon ./js-uzduotys/task4-for",
     "typeof": "nodemon ./js/10-typeof",
     "function": "nodemon ./js/09-function",
     "for": "nodemon ./js/08-for",
