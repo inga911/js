@@ -181,3 +181,115 @@ console.log(hh++);
 console.log(hh++);
 console.log(hh++);
 console.log(hh++);
+
+
+
+console.clear(); 
+
+
+
+console.log('-------------- IS CODEWARS----------------');
+
+
+
+function positiveSum(arr) {
+    // console.log(arr);
+    let sum = 0;
+    for ( let i = 0; i < arr.length; i++){
+        // console.log(arr[i]);
+            if (arr[i] > 0){
+                sum += arr[i];
+            }
+       
+    }
+    return sum;
+ 
+}
+
+console.log(positiveSum([1,2,3,4,5]),15);
+console.log(positiveSum([1,-2,3,4,5]),13);
+console.log(positiveSum([]),0);
+console.log(positiveSum([-1,-2,-3,-4,-5]),0);
+console.log(positiveSum([-1,2,3,4,-5]),9);
+
+
+
+console.log('---------BANDAU SAVARANKISKAI- sum tik teigiami---------');
+
+function sudetisTikTeigiamu(masyvas){
+    let sum = 0;
+    for (let i = 0; i < masyvas.length; i++){
+        if (masyvas[i] > 0){sum += masyvas[i]}
+    }
+    return sum;
+}
+console.log(positiveSum([1,7,3,2,2]),'-->', 15);
+console.log(positiveSum([0,-2,3,3,6]),'-->', 12);
+console.log(positiveSum([-1, 2, 3]),'-->', 5);
+console.log(positiveSum([-5, 20, -18]),'-->', 6);
+console.log(positiveSum([-9, 6, 10]),'-->', 16);
+
+
+console.log('---------BANDAU SAVARANKISKAI- sum tik teigiami---------');
+
+function sudetisTikNeigiam(teigiami){
+    let sum = 0;
+    for ( let i = 0; i <teigiami.length; i++){
+        if (teigiami[i] >0){sum += teigiami[i]}
+    }
+    return sum;
+}
+console.log(sudetisTikTeigiamu([3, 5, 7, 8, 10]),'-->', 33);
+console.log(sudetisTikTeigiamu([3, 9, 7, 8, 10]),'-->', 37);
+console.log(sudetisTikTeigiamu([-1, 2, 3]),'-->', 5);
+console.log(sudetisTikTeigiamu([-5, 20, -18]),'-->', 20);
+console.log(sudetisTikTeigiamu([3, 4, -7, 8, -10]),'-->', 15);
+
+console.log('---------BANDAU SAVARANKISKAI- sum tik teigiami---------');
+
+function sudetis(teigiami){
+    let sum =0;
+    for (let i = 0; i < teigiami.length; i++){
+        if(teigiami[i] > 0)
+        {sum += teigiami[i]}
+    }
+    return sum;
+}
+
+
+
+console.log(sudetis([1,2,3,4,5]),15);
+console.log(sudetis([1,-2,3,4,5]),13);
+console.log(sudetis([]),0);
+console.log(sudetis([-1,-2,-3,-4,-5]),0);
+console.log(sudetis([-1,2,3,4,-5]),9);
+
+
+function sumStr(a, b){
+    const a = Number(a);
+    const b = Number(b);
+    console.log(sumStr('4', '8'));
+}
+
+console.log('--------------REVERSE STRING----------');
+
+function solution(str){
+    if (typeof string !== 'string') { 
+        return 'ERROR: reikalngas tekstas';
+    }
+    if (string === ''){
+        return 'ERROR: reikalngas ne tuscias tekstas';
+    }
+
+
+    let reverse = '';
+    
+    for (let i = 0; i < str.length; i++){
+        reverse = str[i] + reverse;
+    }
+    return reverse;
+  }
+
+  console.log(solution('hello'));
+  console.log(solution('labas'));
+  console.log(solution('laba diena'));

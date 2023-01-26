@@ -166,3 +166,4 @@ function getPlanetName(id){
   }
 
   console.log()
+  

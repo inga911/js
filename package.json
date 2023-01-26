@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "testDiscord": "nodemon ./js-uzduotys/testDiscord",
+    "arrow": "nodemon ./js/20-arrow", 
+    "stringMethods": "nodemon ./js/18-stringMethods", 
+    "codeWars": "nodemon ./js-uzduotys/testDiscord",
     "object": "nodemon ./js/17-object", 
     "nthLetter": "nodemon ./js/16-nthLetter",
     "biggestNum": "nodemon ./js/15-biggestNum",
