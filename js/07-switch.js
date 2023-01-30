@@ -2,6 +2,7 @@ console.clear();
 /*
 SWITCH (panasus i IF)
 */
+console.log('--------SWITCH (BREAK PO KIEKVIENO CASE)-----');
 
 const diena = 5;
 
@@ -68,7 +69,9 @@ if (day === 1 || day === 2 || day === 3 || day === 4 || day === 5) {
     console.log('tokios dienos savaiteje nera');
 }
 
-console.log('----------');
+console.log('----SWITCH  (BREAK TIK TIES TAM TIKRAIS)------');
+//KAI ESI KOKIAME NORS ETAPE IR REIKIA SUZINOTI KIEK DAR ETAPU LIKO
+
 const gamybosEtapas = 0;
 
 switch (gamybosEtapas) {
@@ -93,7 +96,7 @@ switch (gamybosEtapas) {
         break;
 }
 
-console.log('----------');
+console.log('-----CASE VARIANTAS SU ZODZIAIS-----');
 const stotele = 'Vasaros';
 
 switch (stotele) {

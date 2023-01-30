@@ -93,3 +93,5 @@ const namesAbbr = names.map(abbr);
 
 console.log(names);
 console.log(namesAbbr);
+
+

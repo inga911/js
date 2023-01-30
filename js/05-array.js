@@ -70,6 +70,8 @@ sakinys += '.';
 
 console.log(sakinys);
 
+console.log('------.JOIN()------------');
+
 const sakinys2 = 'Reikia nupirkti: ' + vegs.join(', ') + '.';
 console.log(sakinys2);
 
@@ -92,11 +94,15 @@ console.log(jonas);
 jonas.push(8);
 console.log(jonas);
 
+console.log('-----.INCLUDES IESKO KONKRECIOS REIKSMES (TRUE/FALSE)-------------');
+
 const arTuri7 = jonas.includes(7);
 console.log(arTuri7);
 
 const arTuri2 = jonas.includes(2);
 console.log(arTuri2);
+
+console.log('-----.INDEXOF NURODO KELINTAME INDEKSE YRA TAS IESKOMASIS-------------');
 
 const kelintas2 = jonas.indexOf(2);
 console.log(kelintas2);
@@ -112,3 +118,8 @@ console.log(kelintas7);
 
 const kelintas777 = jonas.indexOf(777);
 console.log(kelintas777);
+
+// jei bus ieskoma to kas neegzistuoja, atsakymas bus -1, t.y. tokia pozicija neimanoma.
+
+
+//.SORT() = isrikiuoja abeceles tvarka ir pakeicia orginala ateiciai

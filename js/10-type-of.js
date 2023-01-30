@@ -4,34 +4,34 @@ TYPEOF (tipo nustatymas)
 operatorius
 */
 
-console.log(typeof 5);
-console.log(typeof Infinity);
-console.log(typeof NaN);
-console.log(typeof -3.14);
+console.log(typeof 5, '-->', 'number');
+console.log(typeof Infinity, '-->', 'number');
+console.log(typeof NaN, '-->', 'number');
+console.log(typeof -3.14, '-->', 'number');
 
-console.log(typeof '');
-console.log(typeof 'earsgf');
+console.log(typeof '', '-->', 'string');
+console.log(typeof 'earsgf', '-->', 'string');
 
-console.log(typeof true);
-console.log(typeof false);
+console.log(typeof true, '-->','boolean');
+console.log(typeof false, '-->','boolean');
 
-console.log(typeof function () { });
+console.log(typeof function () { }, '-->','function');
 
-console.log(typeof []);
-console.log(typeof [5]);
-console.log(typeof ['dfsd']);
-console.log(typeof [true]);
+console.log(typeof [], '-->', 'object');
+console.log(typeof [5], '-->', 'object');
+console.log(typeof ['dfsd'], '-->','object');
+console.log(typeof [true], '-->','object');
 
-console.log(typeof undefined);
-console.log(typeof null);
-console.log(typeof {});
+console.log(typeof undefined, '-->', 'undefined');
+console.log(typeof null, '-->', 'object');
+console.log(typeof {}, '-->', 'object');
 
 console.log('----------');
-console.log(Array.isArray(5));
-console.log(Array.isArray('sgeret'));
-console.log(Array.isArray(true));
-console.log(Array.isArray(function () { }));
-console.log(Array.isArray(null));
-console.log(Array.isArray({}));
+console.log(Array.isArray(5), '-->', 'false');
+console.log(Array.isArray('sgeret'), '-->', 'false');
+console.log(Array.isArray(true), '-->', 'false');
+console.log(Array.isArray(function () { }), '-->', 'false');
+console.log(Array.isArray(null), '-->', 'false');
+console.log(Array.isArray({}), '-->', 'false');
 
-console.log(Array.isArray([]));
+console.log(Array.isArray([]), '-->', 'true');

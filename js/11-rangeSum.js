@@ -1,10 +1,10 @@
 console.clear();
 
 function rangeSum(from, to) {
-    if (typeof from !== 'number') {
+    if (typeof from !== 'number') {//jei yra ne skaicius tada error
         return 'ERROR: pirmasis parametras turi buti skaicius.';
     }
-    if (!isFinite(from) || from % 1 !== 0) {
+    if (!isFinite(from) || from % 1 !== 0) {//  ||atsikratyti desimtainiu skaiciu
         return 'ERROR: pirmasis parametras turi buti sveikasis skaicius.';
     }
 

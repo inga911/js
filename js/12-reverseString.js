@@ -10,7 +10,7 @@ function reverseString (string) {
         return 'ERROR: reikalngas ne tuscias tekstas';
     }
 
-    let atsakymas = '';
+    let atsakymas = '';// tipine pradine reiksme pvz jei busimas ats turetu buti masyva turetume rasyti [];
 
 
     

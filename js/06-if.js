@@ -10,6 +10,8 @@ if () {} else if {} else {}
 if () {} else if {} ... else if {}
 if () {} else if {} ... else if {} else{}
 
+{} zymi logikos dali
+
 LOGINIAI OPERATORIAI:
 -&& (AND)
 -|| (OR)
@@ -73,17 +75,17 @@ if(0 == false){ //skirtingu tipu reiksmes, bet reiksmes yra lygios nes false=0 o
 
 console.log('-------------');
 
-if(0 == ''){ 
+if(0 == ''){ //tuscia teksta priskiria kaip nuli taip pat jei butu false vietoje 0, ir atvirksciai su true kai yra jau koks tekstas
     console.log('lygu');
 }else {
     console.log('nelygu');
 }
 
 
-if ('f' > 'b'){
+if ('f' > 'b'){// bus daugiau, ziuri pagal abecele a bus daugiausia net uz A
     console.log('daugiau');
 } else {
-    console.log('maziau arba lygu');
+    console.log('maziau arba lygu'); // visada atkreipti demesi i ta < ar > =
 }
 
 if ('f' > 'bsfav'){ // f vistiek daugiau nes rikiuojasi pagal abecele
@@ -105,7 +107,7 @@ if (7 === '7'){  // nelygus nes '7' skirtingas duomenu tipas, is pradziu tikrina
 }
 
 
-console.log('-------------');
+console.log('-----ELSE IF--------');
 
 
 
@@ -134,7 +136,7 @@ else  if (diena ===7) {
     console.log('nezinau tokios dienos');
 }
 
-
+console.log('-----ELSE IF--- NESTING--------');
 
 // CODE NESTING - nestinimas
 

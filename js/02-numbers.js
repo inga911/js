@@ -79,57 +79,58 @@ console.log(liekana6);
 
 console.log(0.1 + 0.2);
 
-console.log((1 + 2) / 10);
+console.log((1 + 2) / 10, '-->', '0.3');
 
 const f = 0.1;
 const g = 0.2;
 const h = (f * 10 + g * 10) / 10;
-console.log(h);
+console.log(h, '-->', '0,3');
 
 
-console.log('-------------------');
+console.log('------let-reiksme------------');
 // console.clear();
 
+
 let pinigine = 0;
-console.log(pinigine);
+console.log(pinigine,'-->', '0');
 
 pinigine = pinigine + 1;
-console.log(pinigine);
+console.log(pinigine,'-->', '1');
 
 pinigine = pinigine + 2;
-console.log(pinigine);
+console.log(pinigine,'-->', '3');
 
 pinigine = pinigine - 3;
-console.log(pinigine);
+console.log(pinigine,'-->', '0');
 
 pinigine = pinigine + 4;
-console.log(pinigine);
+console.log(pinigine,'-->', '4');
 
-console.log('-------------------');
+console.log('------PRISTYRIMO OPERATORIAI-------------');
 
 let temperatura = 0;
 console.log(temperatura);
 
 temperatura = temperatura + 2;
-console.log(temperatura);
+console.log(temperatura,'-->', '2');
 
 temperatura += 3;
-console.log(temperatura);
+console.log(temperatura,'-->', '5');
 
 temperatura -= 1;
-console.log(temperatura);
+console.log(temperatura,'-->', '4');
 
 temperatura *= 2;
-console.log(temperatura);
+console.log(temperatura,'-->', '8');
 
 temperatura /= 2;
-console.log(temperatura);
+console.log(temperatura,'-->', '4');
 
 temperatura **= 2;
-console.log(temperatura);
+console.log(temperatura,'-->', '16');
 
 temperatura %= 3;
-console.log(temperatura);
+console.log(temperatura,'-->', '1');
 
 
 console.log('Plius plius ------------------');

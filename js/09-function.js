@@ -10,6 +10,8 @@ console.log(`7 + 5 = ${s1}`);
 const s2 = sudetis(17, -8);
 console.log(`17 + -8 = ${s2}`);
 
+console.log('-------AR LYGINIS ------');
+
 function arLyginis(skaicius) {
     if (skaicius % 2 === 0) {
         return 'lyginis';
@@ -23,12 +25,14 @@ console.log(`7 yra ${l1}`);
 const l2 = arLyginis(88);
 console.log(`88 yra ${l2}`);
 
-console.log('-------------');
+
+
+console.log('-----VIDURKIS--------');
 
 function average(marks) {
     let sum = 0;
-
-    for (let i = 0; i < marks.length; i++) {
+// kai nezinai apimties tada geriau rinktis cikla
+    for (let i = 0; i < marks.length; i++) { 
         sum += marks[i];
     }
 

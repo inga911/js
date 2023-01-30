@@ -2,13 +2,13 @@ console.clear();
 
 
 function numSize(num){
-    // if (!Number.isInteger(num)){//!=jeigu nera sveikasis skaicius tada gausim return
+    // if (!Number.isInteger(num)){   //!=jeigu nera sveikasis skaicius tada gausim return
     //     return 'ERROR: duok skaiciu';
     // } 
    //------------------ 
 
  /*  
-    if (typeof num !== 'number' || num === Infinity || num === -Infinity || '' + num === 'NaN'){//!=jeigu nera sveikasis skaicius tada gausim return || '' + num === 'NaN --> suciumpame NaN reiksme, ir neuzskaito jos kaip skaiciaus
+    if (typeof num !== 'number' || num === Infinity || num === -Infinity || '' + num === 'NaN'){   //!=jeigu nera sveikasis skaicius tada gausim return || '' + num === 'NaN --> suciumpame NaN reiksme, ir neuzskaito jos kaip skaiciaus
         return 'ERROR: duok skaiciu';
     }
 */
